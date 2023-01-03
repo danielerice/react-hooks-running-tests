@@ -4,6 +4,8 @@ import React from "react";
 
 import Article from "../components/Article";
 
+screen.debug();
+
 test("displays the text 'please pass this test'", () => {
   render(<Article />);
 

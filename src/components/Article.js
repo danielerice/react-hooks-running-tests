@@ -1,10 +1,14 @@
 import React from "react";
 
-function Article() {
+
+
+function Article(props) {
   return (
+  <body>
     <div>
-      {/* please pass this test */}
+      <div>please pass this test</div>
     </div>
+  </body>
   );
 }
 
